@@ -1,0 +1,23 @@
+{
+    "ApplicationName": "SQSLab",
+    "DeploymentMethod": "cloudformation",
+    "Functions": {
+        "APIFunction": {
+            "PhysicalId": {
+                "eu-west-2": "cloud9-SQSLab-APIFunction-S63UQYSI0QEO"
+            }
+        },
+        "PriorityQueueFunction": {
+            "PhysicalId": {
+                "eu-west-2": "cloud9-SQSLab-PriorityQueueFunction-AWGRQ6EK1IGY"
+            }
+        },
+        "StandardQueueFunction": {
+            "PhysicalId": {
+                "eu-west-2": "cloud9-SQSLab-StandardQueueFunction-8MFBRU3YU4GR"
+            }
+        }
+    },
+    "RestApiId": "3a6ui4tsue",
+    "StackName": "cloud9-SQSLab"
+}
